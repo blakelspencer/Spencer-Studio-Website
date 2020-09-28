@@ -1,0 +1,401 @@
+/* Theme Colors */
+/*  Black Coral        - #495867
+    Blue Yonder        - #577399
+    Beau Blue          - #BDD5EA
+    Ghost White        - #F7F7FF
+    Orange Red Crayola - #FE5F55
+*/
+
+/*------------------------------------------------------*/
+/* Globals */
+/*------------------------------------------------------*/
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+.home-header{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(images/craterlake.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.contact-us-header{
+    background-color: #495867;
+}
+
+.abt-us-body{
+    background-color: #F7F7FF;
+}
+/*------------------------------------------------------*/
+/* Body */
+/*------------------------------------------------------*/
+body{
+    background-color: #F7F7FF;
+}
+
+html{
+    background color: #F7F7FF;
+    color: #495867;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+.row{
+    max-width:1140px;
+    margin: 0 auto;
+
+}
+
+.row-gallery{
+    max-width: 1140px;
+    margin:0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding:0 6px;
+}
+
+.gallery-column{
+    flex:25%;
+    max-width: 25%;
+    padding: 0 6px;
+}
+
+.gallery-column img{
+    margin-top: 12px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.home-text-box{
+    position: absolute;
+    width:1140px;
+    top:70%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+h1{
+    font-size:200%;
+    color: #F7F7FF;
+    /*text-transform: uppercase;*/
+}
+/*------------------------------------------------------*/
+/* Navigation Bar */
+/*------------------------------------------------------*/
+.logo{
+    height: 300px;
+    width: auto;
+    float: left;
+    padding-top: 25px;
+}
+
+.contact-us-logo{
+    height: 200px;
+}
+
+.main-nav{
+    float: right;
+    margin-top: 75px;
+    margin-right:3%;
+}
+
+.main-nav li{
+    display:inline-block;
+    margin-left:40px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited{
+    color:#F7F7FF;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    transition: bottom-border 0.2s;
+    padding:8px 0;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active{
+    border-bottom:2px solid #FE5F55;
+}
+
+
+.btn:link,
+.btn:visited{
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    color: #fff;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+
+.btn-full:link,
+.btn-full:visited{
+    background-color: #FE5F55;
+    border: 1px solid #FE5F55;
+    color: #fff;
+    margin-right: 15px;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited{
+    border: 1px solid #FE5F55;
+    color: #FE5F55;
+}
+
+.btn:hover,
+.btn:active{
+    background-color: #fe2f22;
+    border-color:#fe2f22;
+}
+
+.btn-full:hover,
+.btn-full:active{
+    border: 1px solid #fe2f22;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active{
+    border: 1px solid #fe2f22;
+    color: #F7F7FF;
+}
+
+
+.abt-us{
+    display: inline-block;
+    height: 600px;
+    width: auto;
+    margin:30px;
+    margin-left: 15%;
+    margin-right: 0px;
+    border:5px solid #577399;
+    border-radius: 30px;
+    float: left;
+}
+
+.abt-us-text{
+    font-size: 110%
+    color:#495867;
+    padding-top: 40px;
+    margin:0px 15% 0px 0px;
+    text-align: justify;
+    font-weight: 400;
+    float: left;
+}
+
+.job-img{
+    height: 300px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 5%;
+}
+
+.call-us{
+    text-decoration: none;
+    text-align: center;
+    color: #F7F7FF;
+    padding-bottom: 40px;
+}
+
+}
+.map{
+    margin: 30px 30px 30px 5%;
+    border:5px solid #577399;
+    border-radius: 30px;
+
+}
+
+.contact-us-tagline{
+    color: #495867;
+    text-align: center;
+}
+
+.contact-us-tagline:after{
+    display: block;
+    content: " ";
+    width: 200px;
+    height: 2px;
+    background-color: #FE5F55;
+    margin:20px auto 40px auto;
+}
+
+.map-iframe{
+    width: 500px;
+    height:500px;
+    frameborder:0;
+    border:0;
+    aria-hidden="false" tabindex="0"
+    display: inline-block;
+}
+
+.info-title{
+    color: #F7F7FF;
+    padding:5px;
+    margin: 40px 0 20px 0;
+    background-color:#FE5F55;
+    width: 200px;
+    border: 1px solid #FE5F55;
+    border-radius: 200px
+
+}
+
+.info-title:first-child{
+    margin-top: 0;
+}
+
+.info-title h2{
+    padding: 5px 15px;
+    font-size: 150%;
+}
+
+.contact-info{
+    font-size: 150%;
+    color:#495867;
+    margin: 15px 0 15px 15px;
+}
+
+.section{
+    background-color: #F7F7FF;
+}
+
+.front-page{
+    background-color: #F7F7FF;
+}
+
+.front-page-title{
+    color: #495867;
+    padding: 30px;
+    margin:0px;
+    text-align: center;
+}
+
+.front-page-copy{
+    text-align: justify;
+    margin-bottom: 40px;
+    font-size: 110%;
+}
+
+.front-page-copy:after{
+    display: block;
+    content: " ";
+    height:2px;
+    width:150px;
+    margin:0px auto;
+    margin-top: 20px;
+    background-color: #FE5F55;
+}
+
+.job-icon{
+    font-size: 250%;
+    color: #577399;
+    text-align: center;
+    display: block;
+}
+
+.span-1-of-4{
+    background-color: #F7F7FF;
+}
+
+.jobs-title{
+    text-align: center;
+    color:#577399;
+    font-size: 150%
+
+}
+
+.job-type-box li{
+    list-style: none;
+    text-align: center;
+}
+
+footer p{
+    background-color: #F7F7FF;
+    font-size: 75%;
+    margin-left: 5%;
+}
+
+.call-us-btn{
+    /* margin-top: 30px; */
+    margin: 30px auto;
+    display: block;
+}
+
+#front-page-call-btn{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.gallery img{
+    transition: 1s;
+}
+
+.gallery img:hover{
+    transform: scale(1.1);
+}
+
+.selection-box{
+    padding-top: 25%;
+    border: 1px solid #FE5F55;
+    background-color: #FE5F55;
+    border-radius: 30px;
+    width:50%;
+    height:400px;
+    margin: auto;
+}
+
+.selection-link {
+    text-decoration: none;
+}
+
+.selection-link:hover,
+.selection-link:active{
+    background-color: #fe2f22;
+    border-color:#fe2f22;
+}
+
+th,td{
+    padding:10px;
+    text-align: center;
+}
+
+.table-bottom{
+    border-bottom: 3px double #FE5F55;
+}
+
+.sports-pricing{
+    margin:20px auto;
+}
+
+.bottom-pricing-space{
+    height: 100px;
+}
+
+.email-link{
+    color:#495867;
+    margin: 0px 0 15px 15px;
+    text-decoration: none;
+}
+
+.email-link:hover,
+.email-link:active{
+    color: #FE5F55;
+}
+
+
+.contact-icon{
+    font-size: 150%;
+    color:black;
+    display: inline;
+}
