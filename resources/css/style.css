@@ -372,6 +372,7 @@ th,td{
 
 .table-bottom{
     border-bottom: 3px double #FE5F55;
+    border-collapse: collapse;
 }
 
 .sports-pricing{
