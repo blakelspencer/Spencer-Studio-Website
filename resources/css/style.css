@@ -244,7 +244,7 @@ h1{
     padding:5px;
     margin: 40px 0 20px 0;
     background-color:#FE5F55;
-    width: 200px;
+    width: 170px;
     border: 1px solid #FE5F55;
     border-radius: 200px
 
@@ -365,6 +365,7 @@ footer p{
     border-color:#fe2f22;
 }
 
+
 th,td{
     padding:10px;
     text-align: center;
@@ -376,6 +377,7 @@ th,td{
 
 .sports-pricing{
     margin:20px auto;
+    border-spacing: 0;
 }
 
 .bottom-pricing-space{
